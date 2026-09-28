@@ -106,7 +106,7 @@ export const LeetCodeModal = ({ isOpen, onClose }) => {
                   (isNotFound ? "border-rose-400 focus:ring-rose-400" :
                    isValidConfirmed ? "border-emerald-400 focus:ring-emerald-400" :
                    "border-slate-300 focus:ring-amber-500")}
-                placeholder="e.g. Deepakkumaran_21"
+                placeholder="Enter your LeetCode username"
               />
               <button
                 onClick={handleSync}
